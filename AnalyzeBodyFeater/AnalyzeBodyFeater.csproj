@@ -68,7 +68,10 @@
     <Compile Include="Mold\HoleFeature.cs" />
     <Compile Include="Mold\HoleStep.cs" />
     <Compile Include="Mold\IDisplayObject.cs" />
+    <Compile Include="Mold\OnlyBlindHoleFeature.cs" />
     <Compile Include="Mold\OnlyThroughHoleFeature.cs" />
+    <Compile Include="Mold\StepBlindHoleFeature.cs" />
+    <Compile Include="Mold\StepHoleFeature.cs" />
     <Compile Include="Mold\StepThroughHoleFeature.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\MoldIncentory.cs" />

@@ -13,9 +13,9 @@ namespace AnalyzeBodyFeater
     /// </summary>
     public class OnlyThroughHoleFeature : HoleFeature
     {
-        public OnlyThroughHoleFeature(List<HoleStep> hs)
+        public OnlyThroughHoleFeature(HoleCollection hc)
         {
-            this.StepList = hs;
+            this.StepList = hc.StepList;
         }
         public override void ComputeHoleFeatureAttr()
         {

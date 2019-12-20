@@ -18,9 +18,10 @@ namespace AnalyzeBodyFeater
         /// </summary>
         public List<Circle> CircleList = new List<Circle>();
 
-        public StepThroughHoleFeature(List<HoleStep> hs)
+        public StepThroughHoleFeature(HoleCollection hc)
         {
-            this.StepList = hs;
+            this.StepList = hc.StepList;
+            this.CircleList = hc.CircleList;
         }
         public override void ComputeHoleFeatureAttr()
         {
